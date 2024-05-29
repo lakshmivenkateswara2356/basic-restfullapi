@@ -70,6 +70,7 @@ function App() {
               onChange={(e) => setEmail(e.target.value)}
               required
             />
+            <h1 >additional changes</h1>
           </div>
           <button type="submit" className="bg-blue-600 text-white p-2 rounded-md hover:bg-blue-700 transition duration-300">
             {editing ? 'Update User' : 'Add User'}

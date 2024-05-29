@@ -21,6 +21,8 @@ mongoose.connect('mongodb://localhost:27017/users', {
   console.error('connecting mongo', err);
 });
 
+
+
 // User schema and model
 const userSchema = new mongoose.Schema({
   name: { type: String, required: true },
