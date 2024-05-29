@@ -18,7 +18,7 @@ mongoose.connect('mongodb://localhost:27017/users', {
 }).then(() => {
   console.log("error occering");
 }).catch(err => {
-  console.error('Error connecting to MongoDB', err);
+  console.error('connecting mongo', err);
 });
 
 // User schema and model
