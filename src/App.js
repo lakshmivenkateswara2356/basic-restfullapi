@@ -62,12 +62,13 @@ function App() {
             />
           </div>
           <div className="form-group mb-4">
-            <label className="block text-gray-700">Email</label>
+            <label className="block text-gray-700">email</label>
             <input
               type="email"
               className="mt-1 p-2 border rounded-md w-full"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
+             
               required
             />
             <h1 >additional changes</h1>
